@@ -76,7 +76,10 @@
 			</plugin>
 			<plugin>
 				<artifactId>kotlin-maven-plugin</artifactId>
-				<groupId>org.jetbrains.kotlin</groupId>
+                <configuration>
+                    <languageVersion>1.4</languageVersion>
+                </configuration>
+                <groupId>org.jetbrains.kotlin</groupId>
 				<version>${kotlin.version}</version>
 				<executions>
 					<execution>
